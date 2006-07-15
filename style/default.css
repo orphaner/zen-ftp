@@ -1,0 +1,151 @@
+img { 
+  border:0px;
+}
+
+* { 
+  padding:0;
+  margin:0;
+}
+
+body {
+  font-family: Verdana,  Arial;
+  text-decoration:none;
+  color: #000000;
+  font-size: 12px;
+  text-align: center; /* pour corriger le bug de centrage IE */
+  margin:15px 0 0 0;
+}
+
+table#userList {
+  font-size: 12px;
+  margin: auto;
+  border:1px solid black;
+}
+table#userList tr td { 
+  text-align:left;
+}
+
+a {
+  text-decoration:none;
+  color: #000000;
+}
+
+a:visited {
+  text-decoration: none;
+  color: default;
+}
+
+a:hover {
+  color: #FF0000;
+}
+
+td, th { 
+  padding:0 0.13em 0 0.13em;
+}
+/* Admin page */
+table#userList tr.select_user {
+  background-color: rgb(195, 214, 230);
+}
+
+table#userList tr.select_locked_user {
+  background-color: rgb(235, 234, 219);
+}
+
+table#userList tr.column_name_select_user {
+  background-color: rgb(51, 102, 153);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+
+}
+
+label.float, span.label {
+  position: relative;
+  float: left;
+  width: 200px;
+  padding-right: 0.5em;
+}
+input, select {
+  background: #F2F2F2;
+  border: 1px solid #ccc;
+  color: #000;
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  font-size: 1em;
+}
+input:focus { 
+  background: #eef3f5;
+  border: 1px solid #666;
+}
+fieldset {
+  border: 1px solid black;
+  padding:0.5em;
+  text-align: left;
+  width:500px;
+}
+
+legend {
+  font-weight: bold;
+  padding:0 0.3em 0 0.3em;
+}
+
+label, span.label {
+  display: block;
+  position: static;  /* IE n'aime pas relative */
+}
+
+#dlBandwidth, #ulBandwidth, #ulRatio, #dlRatio, #quotaFiles, #quotaSize { 
+  width:70px;
+}
+#uid, #gid { 
+  width:120px;
+}
+
+#dir{ 
+  width:270px;
+}
+.error { 
+  color:red;
+  font-weight:bold;
+}
+
+form p { 
+  padding:0.3em;
+}
+
+div#theFields { 
+  border:1px solid #999999;
+}
+div#theForm {
+  padding-top:1em;
+  width: 520px;
+  margin:auto;
+}
+#page { 
+  text-align:left;
+  margin: auto;
+}
+p.color1 {
+  background-color: #D4E2ED;
+}
+p.color2 {
+  background-color: #F8FAFC;
+}
+h1 { 
+  width:550px;
+  border-left:4px solid  #336699;
+  border-bottom:2px solid #336699;
+  margin:auto;
+  font-size:1.5em;
+  text-align:left;
+  padding-left:1.5em;
+  margin-top:20px;
+}
+h1#list { 
+  background: url("../images/userlist.png") no-repeat 10px;
+}
+div#actions { 
+  margin:auto;
+  width:550px;
+}
+div#actions ul { 
+  margin:0.8em 0 0.8em 0 ;
+}
