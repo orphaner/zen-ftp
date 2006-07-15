@@ -47,7 +47,7 @@ $lang['STAR_MESSAGE'] = 'Fields with a star must be filled in.';
 
 $lang['ADD_USER'] = 'New user';
 
-$lang['DELETE_CONFIRM'] = 'Do you really want deleting this user ?';
+$lang['DELETE_CONFIRM'] = 'Do you really want to delete this user ?';
 
 $lang['H1_USER_LIST'] = 'User list';
 $lang['H1_ACTION'] = 'Current action : ';
